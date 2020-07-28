@@ -1,27 +1,34 @@
-# NgApp
+# Video Player
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
+This project is using MEAN stack a the development enviroment.
+The whole project are taken from the (MEAN Stack tutorial Series)[https://www.youtube.com/watch?v=vLvNr3Wa5YI&list=PLC3y8-rFHvwj200LLotCYum_9wmGeTJx9&index=1]
 
-## Development server
+# Run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To run this, you will need to fill in your mongodb url in `/server/routes/api.js`
 
-## Code scaffolding
+Run server with
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+$ node server
+```
 
-## Build
+Then run angular app
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+$ ng serve -o
+```
 
-## Running unit tests
+# Production
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The angular need to build in production mode
 
-## Running end-to-end tests
+```
+$ ng build --prod
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Then the server will be able to read the builed web app. Again, we need to run the server.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+$ node server
+```
