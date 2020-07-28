@@ -4,7 +4,7 @@ const Video = require('../models/video');
 
 const router = express.Router();
 
-const db = "mongodb+srv://nvn:EytihV2nPU4iALjU@cluster0.35mv4.mongodb.net/videoplayer?retryWrites=true&w=majority"
+const db = "<MongoDatabase url>"
 mongoose.Promise = global.Promise;
 mongoose.connect(db,
 	{
