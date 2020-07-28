@@ -1,7 +1,7 @@
 # Video Player
 
 This project is using the MEAN stack as the development enviroment. <br/>
-The whole project are taken from the (MEAN Stack tutorial Series)[https://www.youtube.com/watch?v=vLvNr3Wa5YI&list=PLC3y8-rFHvwj200LLotCYum_9wmGeTJx9&index=1]
+The whole project are taken from the [MEAN Stack tutorial Series](https://www.youtube.com/watch?v=vLvNr3Wa5YI&list=PLC3y8-rFHvwj200LLotCYum_9wmGeTJx9&index=1)
 
 # Run
 
